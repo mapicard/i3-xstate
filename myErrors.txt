@@ -1,0 +1,3080 @@
+[2K[G[DEBUG] Reason for not using local CLI: LOCAL_CLI_NOT_FOUND
+[2K[G[DEBUG] CLI flags: { interactive: true, confirm: false }
+[2K[G[DEBUG] { cwd: '/Users/mapicard/Desktop/smpApps/Sample Apps/i3-xstate', local: false, binPath: '/usr/local/lib/node_modules/ionic/bin/ionic', libPath: '/usr/local/lib/node_modules/ionic/dist/index.js' }
+[2K[GRunning app-scripts build: --platform browser --target cordova
+[16:39:53]  build dev started ... 
+[16:39:53]  clean started ... 
+[16:39:53]  clean finished in 2 ms 
+[16:39:53]  copy started ... 
+[16:39:53]  deeplinks started ... 
+[16:39:53]  deeplinks finished in 34 ms 
+[16:39:53]  transpile started ... 
+            '{' or ';' expected. 
+
+      L89:  matches<TSV extends TTypestate['value']>(parentStateValue: TSV): this is TTypestate extends {
+      L90:      value: TSV;
+
+            Unexpected token. A constructor, method, accessor, or property was expected. 
+
+      L89:  matches<TSV extends TTypestate['value']>(parentStateValue: TSV): this is TTypestate extends {
+      L90:      value: TSV;
+
+            Declaration or statement expected. 
+
+      L90:          value: TSV;
+      L91:      } ? State<TTypestate['context'], TEvent, TStateSchema, TTypestate> : never;
+
+            '(' expected. 
+
+      L90:          value: TSV;
+      L91:      } ? State<TTypestate['context'], TEvent, TStateSchema, TTypestate> : never;
+
+            ')' expected. 
+
+      L90:          value: TSV;
+      L91:      } ? State<TTypestate['context'], TEvent, TStateSchema, TTypestate> : never;
+
+            Declaration or statement expected. 
+
+      L91:      } ? State<TTypestate['context'], TEvent, TStateSchema, TTypestate> : never;
+      L93:  //# sourceMappingURL=State.d.ts.map
+
+            ';' expected. 
+
+      L89:  meta?: TStateSchema extends {
+      L90:      meta: infer D;
+
+            Unexpected token. A constructor, method, accessor, or property was expected. 
+
+      L89:  meta?: TStateSchema extends {
+      L90:      meta: infer D;
+
+            ';' expected. 
+
+      L89:  meta?: TStateSchema extends {
+      L90:      meta: infer D;
+      L91:  } ? D : any;
+
+            Declaration or statement expected. 
+
+      L90:      meta: infer D;
+      L91:  } ? D : any;
+
+            Expression expected. 
+
+      L95:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            '(' expected. 
+
+      L95:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            '(' expected. 
+
+      L95:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            '(' expected. 
+
+     L107:  invoke: Array<InvokeDefinition<TContext, TEvent>>;
+     L108:  options: MachineOptions<TContext, TEvent>;
+
+            '(' expected. 
+
+     L107:  invoke: Array<InvokeDefinition<TContext, TEvent>>;
+     L108:  options: MachineOptions<TContext, TEvent>;
+     L109:  __xstatenode: true;
+
+            Declaration or statement expected. 
+
+     L109:  __xstatenode: true;
+     L110:  private __cache;
+     L111:  private idMap;
+
+            Declaration or statement expected. 
+
+     L110:  private __cache;
+     L111:  private idMap;
+     L112:  constructor(
+
+            ',' expected. 
+
+     L116:  config: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>
+
+            Expression expected. 
+
+     L116:  config: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>
+
+            Expression expected. 
+
+     L116:  nfig: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>, 
+
+            Expression expected. 
+
+     L116:  nfig: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>, 
+
+            Expression expected. 
+
+     L120:  context?: Readonly<TContext> | undefined);
+     L121:  private _init;
+
+            '(' expected. 
+
+     L120:  context?: Readonly<TContext> | undefined);
+     L121:  private _init;
+
+            ')' expected. 
+
+     L120:  context?: Readonly<TContext> | undefined);
+     L121:  private _init;
+
+            Declaration or statement expected. 
+
+     L120:  context?: Readonly<TContext> | undefined);
+     L121:  private _init;
+
+            ',' expected. 
+
+     L128:  withConfig(options: Partial<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TC
+
+            Expression expected. 
+
+     L128:  nfig(options: Partial<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TContext
+
+            Expression expected. 
+
+     L128:  ns: Partial<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TContext, TStateSc
+
+            ';' expected. 
+
+     L128:  chineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TContext, TStateSchema, TEvent>;
+
+            '(' expected. 
+
+     L128:  chineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TContext, TStateSchema, TEvent>;
+
+            ',' expected. 
+
+     L134:  withContext(context: TContext): StateNode<TContext, TStateSchema, TEvent>;
+
+            ';' expected. 
+
+     L134:  withContext(context: TContext): StateNode<TContext, TStateSchema, TEvent>;
+
+            '(' expected. 
+
+     L134:  withContext(context: TContext): StateNode<TContext, TStateSchema, TEvent>;
+
+            ';' expected. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            ';' expected. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            '(' expected. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            ';' expected. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            '(' expected. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            ';' expected. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            ';' expected. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            '(' expected. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            ';' expected. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            ';' expected. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            '(' expected. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            ';' expected. 
+
+     L148:  get transitions(): Array<TransitionDefinition<TContext, TEvent>>;
+     L149:  private getCandidates;
+
+            ';' expected. 
+
+     L148:  get transitions(): Array<TransitionDefinition<TContext, TEvent>>;
+     L149:  private getCandidates;
+
+            '(' expected. 
+
+     L148:  get transitions(): Array<TransitionDefinition<TContext, TEvent>>;
+     L149:  private getCandidates;
+
+            Declaration or statement expected. 
+
+     L148:  get transitions(): Array<TransitionDefinition<TContext, TEvent>>;
+     L149:  private getCandidates;
+
+            Declaration or statement expected. 
+
+     L153:  private getDelayedTransitions;
+
+            ',' expected. 
+
+     L159:  getStateNodes(state: StateValue | State<TContext, TEvent>): Array<StateNode<TContext, any, TEvent>>;
+
+            '(' expected. 
+
+     L159:  getStateNodes(state: StateValue | State<TContext, TEvent>): Array<StateNode<TContext, any, TEvent>>;
+
+            ',' expected. 
+
+     L159:  getStateNodes(state: StateValue | State<TContext, TEvent>): Array<StateNode<TContext, any, TEvent>>;
+
+            '(' expected. 
+
+     L159:  getStateNodes(state: StateValue | State<TContext, TEvent>): Array<StateNode<TContext, any, TEvent>>;
+
+            ',' expected. 
+
+     L165:  handles(event: Event<TEvent>): boolean;
+
+            '(' expected. 
+
+     L165:  handles(event: Event<TEvent>): boolean;
+
+            ',' expected. 
+
+     L165:  handles(event: Event<TEvent>): boolean;
+
+            ')' expected. 
+
+     L165:  handles(event: Event<TEvent>): boolean;
+
+            ',' expected. 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+
+            '(' expected. 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+
+            ',' expected. 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+
+            '(' expected. 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+
+            Declaration or statement expected. 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+     L175:  private transitionCompoundNode;
+
+            Declaration or statement expected. 
+
+     L174:  private transitionLeafNode;
+     L175:  private transitionCompoundNode;
+     L176:  private transitionParallelNode;
+
+            Declaration or statement expected. 
+
+     L175:  private transitionCompoundNode;
+     L176:  private transitionParallelNode;
+     L177:  private _transition;
+
+            Declaration or statement expected. 
+
+     L176:  private transitionParallelNode;
+     L177:  private _transition;
+     L178:  private next;
+
+            Declaration or statement expected. 
+
+     L177:  private _transition;
+     L178:  private next;
+     L179:  private nodesFromChild;
+
+            Declaration or statement expected. 
+
+     L178:  private next;
+     L179:  private nodesFromChild;
+
+            Declaration or statement expected. 
+
+     L184:  private escapes;
+     L185:  private evaluateGuard;
+
+            Declaration or statement expected. 
+
+     L184:  private escapes;
+     L185:  private evaluateGuard;
+     L186:  private getActions;
+
+            Declaration or statement expected. 
+
+     L185:  private evaluateGuard;
+     L186:  private getActions;
+
+            ',' expected. 
+
+     L194:  transition(state: string | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEven
+     L195:  private resolveRaisedTransition;
+
+            '(' expected. 
+
+     L194:  ng | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEvent> | SCXML.Event<TEven
+     L195:  private resolveRaisedTransition;
+
+            ',' expected. 
+
+     L194:   | State<TContext, TEvent, any, any> | undefined, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TCon
+     L195:  private resolveRaisedTransition;
+
+            '(' expected. 
+
+     L194:  t, TEvent, any, any> | undefined, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TCo
+     L195:  private resolveRaisedTransition;
+
+            Expression expected. 
+
+     L194:  | undefined, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TState
+     L195:  private resolveRaisedTransition;
+
+            Expression expected. 
+
+     L194:  d, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TStateSchema, TT
+     L195:  private resolveRaisedTransition;
+
+            ',' expected. 
+
+     L194:  Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+     L195:  private resolveRaisedTransition;
+
+            '(' expected. 
+
+     L194:  Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+     L195:  private resolveRaisedTransition;
+
+            Declaration or statement expected. 
+
+     L194:  transition(state: string | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+     L195:  private resolveRaisedTransition;
+     L196:  private resolveTransition;
+
+            Declaration or statement expected. 
+
+     L195:  private resolveRaisedTransition;
+     L196:  private resolveTransition;
+
+            ',' expected. 
+
+     L200:  getStateNode(stateKey: string): StateNode<TContext, any, TEvent>;
+
+            ';' expected. 
+
+     L200:  getStateNode(stateKey: string): StateNode<TContext, any, TEvent>;
+
+            '(' expected. 
+
+     L200:  getStateNode(stateKey: string): StateNode<TContext, any, TEvent>;
+
+            ',' expected. 
+
+     L206:  getStateNodeById(stateId: string): StateNode<TContext, any, TEvent>;
+
+            ';' expected. 
+
+     L206:  getStateNodeById(stateId: string): StateNode<TContext, any, TEvent>;
+
+            '(' expected. 
+
+     L206:  getStateNodeById(stateId: string): StateNode<TContext, any, TEvent>;
+
+            ',' expected. 
+
+     L212:  getStateNodeByPath(statePath: string | string[]): StateNode<TContext, any, TEvent>;
+
+            ';' expected. 
+
+     L212:  getStateNodeByPath(statePath: string | string[]): StateNode<TContext, any, TEvent>;
+
+            '(' expected. 
+
+     L212:  getStateNodeByPath(statePath: string | string[]): StateNode<TContext, any, TEvent>;
+
+            ',' expected. 
+
+     L218:  resolve(stateValue: StateValue): StateValue;
+     L219:  private getResolvedPath;
+
+            ';' expected. 
+
+     L218:  resolve(stateValue: StateValue): StateValue;
+     L219:  private getResolvedPath;
+
+            Declaration or statement expected. 
+
+     L218:  resolve(stateValue: StateValue): StateValue;
+     L219:  private getResolvedPath;
+     L220:  private get initialStateValue();
+
+            Declaration or statement expected. 
+
+     L219:  private getResolvedPath;
+     L220:  private get initialStateValue();
+     L221:  getInitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            ';' expected. 
+
+     L219:  private getResolvedPath;
+     L220:  private get initialStateValue();
+     L221:  getInitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            ',' expected. 
+
+     L220:  private get initialStateValue();
+     L221:  getInitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestat
+
+            Expression expected. 
+
+     L220:  private get initialStateValue();
+     L221:  getInitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestat
+
+            ';' expected. 
+
+     L220:  private get initialStateValue();
+     L221:  InitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            '(' expected. 
+
+     L220:  private get initialStateValue();
+     L221:  InitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            ';' expected. 
+
+     L226:  get initialState(): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            ';' expected. 
+
+     L226:  get initialState(): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            '(' expected. 
+
+     L226:  get initialState(): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            ';' expected. 
+
+     L231:  get target(): StateValue | undefined;
+
+            ';' expected. 
+
+     L231:  get target(): StateValue | undefined;
+
+            ',' expected. 
+
+     L239:  getRelativeStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolv
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Expression expected. 
+
+     L239:  Nodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Ar
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Expression expected. 
+
+     L239:  tateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<T
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Expression expected. 
+
+     L239:  ext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            ';' expected. 
+
+     L239:  ext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            '(' expected. 
+
+     L239:  ext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            ';' expected. 
+
+     L239:  getRelativeStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            ';' expected. 
+
+     L239:  getRelativeStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            '(' expected. 
+
+     L239:  getRelativeStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            ',' expected. 
+
+     L247:  getFromRelativePath(relativePath: string[]): Array<StateNode<TContext, any, TEvent>>;
+     L248:  private historyValue;
+
+            ';' expected. 
+
+     L247:  getFromRelativePath(relativePath: string[]): Array<StateNode<TContext, any, TEvent>>;
+     L248:  private historyValue;
+
+            '(' expected. 
+
+     L247:  getFromRelativePath(relativePath: string[]): Array<StateNode<TContext, any, TEvent>>;
+     L248:  private historyValue;
+
+            Declaration or statement expected. 
+
+     L247:  getFromRelativePath(relativePath: string[]): Array<StateNode<TContext, any, TEvent>>;
+     L248:  private historyValue;
+
+            Declaration or statement expected. 
+
+     L255:  private resolveHistory;
+
+            ';' expected. 
+
+     L259:  get stateIds(): string[];
+
+            ';' expected. 
+
+     L259:  get stateIds(): string[];
+
+            ';' expected. 
+
+     L263:  get events(): Array<TEvent['type']>;
+
+            ';' expected. 
+
+     L263:  get events(): Array<TEvent['type']>;
+
+            '(' expected. 
+
+     L263:  get events(): Array<TEvent['type']>;
+
+            ';' expected. 
+
+     L269:  get ownEvents(): Array<TEvent['type']>;
+     L270:  private resolveTarget;
+
+            ';' expected. 
+
+     L269:  get ownEvents(): Array<TEvent['type']>;
+     L270:  private resolveTarget;
+
+            '(' expected. 
+
+     L269:  get ownEvents(): Array<TEvent['type']>;
+     L270:  private resolveTarget;
+
+            Declaration or statement expected. 
+
+     L269:  get ownEvents(): Array<TEvent['type']>;
+     L270:  private resolveTarget;
+     L271:  private formatTransition;
+
+            Declaration or statement expected. 
+
+     L270:  private resolveTarget;
+     L271:  private formatTransition;
+     L272:  private formatTransitions;
+
+            Declaration or statement expected. 
+
+     L271:      private formatTransition;
+     L272:      private formatTransitions;
+
+            Declaration or statement expected. 
+
+     L272:      private formatTransitions;
+     L274:  export { StateNode };
+
+            '>' expected. 
+
+       L8:  export declare function toActionObject<TContext, TEvent extends EventObject>(action: Action<TContext, TEvent>, actionFunctionMap?: ActionFunctionMap<TContext, TEvent>): ActionObject<TContext, TEvent>;
+       L9:  Event extends EventObject>(action?: string | RaiseAction<import("./types").AnyEventObject> | ActionObject<TC
+      L10:  export declare function toActivityDefinition<TContext, TEvent extends EventObject>(action: string | ActivityDefinition<TContext, TEvent>): ActivityDefinition<TContext, TEvent>;
+
+            Expression expected. 
+
+       L8:  export declare function toActionObject<TContext, TEvent extends EventObject>(action: Action<TContext, TEvent>, actionFunctionMap?: ActionFunctionMap<TContext, TEvent>): ActionObject<TContext, TEvent>;
+       L9:  string | RaiseAction<import("./types").AnyEventObject> | ActionObject<TContext, TEvent> | ActionFunction<TCo
+      L10:  export declare function toActivityDefinition<TContext, TEvent extends EventObject>(action: string | ActivityDefinition<TContext, TEvent>): ActivityDefinition<TContext, TEvent>;
+
+            '(' expected. 
+
+       L8:  export declare function toActionObject<TContext, TEvent extends EventObject>(action: Action<TContext, TEvent>, actionFunctionMap?: ActionFunctionMap<TContext, TEvent>): ActionObject<TContext, TEvent>;
+       L9:  pes").AnyEventObject> | ActionObject<TContext, TEvent> | ActionFunction<TContext, TEvent> | AssignAction<Req
+      L10:  export declare function toActivityDefinition<TContext, TEvent extends EventObject>(action: string | ActivityDefinition<TContext, TEvent>): ActivityDefinition<TContext, TEvent>;
+
+            '(' expected. 
+
+       L8:  export declare function toActionObject<TContext, TEvent extends EventObject>(action: Action<TContext, TEvent>, actionFunctionMap?: ActionFunctionMap<TContext, TEvent>): ActionObject<TContext, TEvent>;
+       L9:  t<TContext, TEvent> | ActionFunction<TContext, TEvent> | AssignAction<Required<TContext>, TEvent> | SendActi
+      L10:  export declare function toActivityDefinition<TContext, TEvent extends EventObject>(action: string | ActivityDefinition<TContext, TEvent>): ActivityDefinition<TContext, TEvent>;
+
+            '(' expected. 
+
+       L8:  export declare function toActionObject<TContext, TEvent extends EventObject>(action: Action<TContext, TEvent>, actionFunctionMap?: ActionFunctionMap<TContext, TEvent>): ActionObject<TContext, TEvent>;
+       L9:  xt, TEvent> | AssignAction<Required<TContext>, TEvent> | SendAction<TContext, TEvent> | Action<TContext, TEv
+      L10:  export declare function toActivityDefinition<TContext, TEvent extends EventObject>(action: string | ActivityDefinition<TContext, TEvent>): ActivityDefinition<TContext, TEvent>;
+
+            '(' expected. 
+
+       L8:  export declare function toActionObject<TContext, TEvent extends EventObject>(action: Action<TContext, TEvent>, actionFunctionMap?: ActionFunctionMap<TContext, TEvent>): ActionObject<TContext, TEvent>;
+       L9:  ired<TContext>, TEvent> | SendAction<TContext, TEvent> | Action<TContext, TEvent>[] | undefined, actionFunct
+      L10:  export declare function toActivityDefinition<TContext, TEvent extends EventObject>(action: string | ActivityDefinition<TContext, TEvent>): ActivityDefinition<TContext, TEvent>;
+
+            Expression expected. 
+
+       L8:  export declare function toActionObject<TContext, TEvent extends EventObject>(action: Action<TContext, TEvent>, actionFunctionMap?: ActionFunctionMap<TContext, TEvent>): ActionObject<TContext, TEvent>;
+       L9:  ion<TContext, TEvent>[] | undefined, actionFunctionMap?: Record<string, ActionFunction<TContext, TEvent> | A
+      L10:  export declare function toActivityDefinition<TContext, TEvent extends EventObject>(action: string | ActivityDefinition<TContext, TEvent>): ActivityDefinition<TContext, TEvent>;
+
+            '(' expected. 
+
+       L8:  export declare function toActionObject<TContext, TEvent extends EventObject>(action: Action<TContext, TEvent>, actionFunctionMap?: ActionFunctionMap<TContext, TEvent>): ActionObject<TContext, TEvent>;
+       L9:  nction<TContext, TEvent> | ActionObject<TContext, TEvent>> | undefined) => ActionObject<TContext, TEvent>[];
+      L10:  export declare function toActivityDefinition<TContext, TEvent extends EventObject>(action: string | ActivityDefinition<TContext, TEvent>): ActivityDefinition<TContext, TEvent>;
+
+            ',' expected. 
+
+       L8:  export declare function toActionObject<TContext, TEvent extends EventObject>(action: Action<TContext, TEvent>, actionFunctionMap?: ActionFunctionMap<TContext, TEvent>): ActionObject<TContext, TEvent>;
+       L9:  nction<TContext, TEvent> | ActionObject<TContext, TEvent>> | undefined) => ActionObject<TContext, TEvent>[];
+      L10:  export declare function toActivityDefinition<TContext, TEvent extends EventObject>(action: string | ActivityDefinition<TContext, TEvent>): ActivityDefinition<TContext, TEvent>;
+
+            ';' expected. 
+
+      L15:  log: typeof log;
+      L16:  cancel: (sendId: string | number) => import("./types").CancelAction;
+      L17:  start: typeof start;
+
+            Identifier expected. 
+
+      L15:  log: typeof log;
+      L16:  cancel: (sendId: string | number) => import("./types").CancelAction;
+      L17:  start: typeof start;
+
+            ';' expected. 
+
+      L15:  log: typeof log;
+      L16:  cancel: (sendId: string | number) => import("./types").CancelAction;
+      L17:  start: typeof start;
+
+            '>' expected. 
+
+      L18:  stop: typeof stop;
+      L19:  , TEvent extends import("./types").EventObject = import("./types").EventObject>(assignment: import("./types"
+      L20:  after: typeof after;
+
+            Identifier expected. 
+
+      L18:  stop: typeof stop;
+      L19:  ext, TEvent extends import("./types").EventObject = import("./types").EventObject>(assignment: import("./typ
+      L20:  after: typeof after;
+
+            '=>' expected. 
+
+      L18:  stop: typeof stop;
+      L19:  tends import("./types").EventObject = import("./types").EventObject>(assignment: import("./types").Assigner<
+      L20:  after: typeof after;
+
+            ';' expected. 
+
+      L18:  stop: typeof stop;
+      L19:  ("./types").EventObject = import("./types").EventObject>(assignment: import("./types").Assigner<TContext, TE
+      L20:  after: typeof after;
+
+            ')' expected. 
+
+      L18:  stop: typeof stop;
+      L19:  EventObject = import("./types").EventObject>(assignment: import("./types").Assigner<TContext, TEvent> | impo
+      L20:  after: typeof after;
+
+            Variable declaration expected. 
+
+      L18:  stop: typeof stop;
+      L19:  EventObject = import("./types").EventObject>(assignment: import("./types").Assigner<TContext, TEvent> | impo
+      L20:  after: typeof after;
+
+            '(' expected. 
+
+      L18:  stop: typeof stop;
+      L19:  signment: import("./types").Assigner<TContext, TEvent> | import("./types").PropertyAssigner<TContext, TEvent
+      L20:  after: typeof after;
+
+            '(' expected. 
+
+      L18:  stop: typeof stop;
+      L19:   | import("./types").PropertyAssigner<TContext, TEvent>) => import("./types").AssignAction<TContext, TEvent>
+      L20:  after: typeof after;
+
+            ',' expected. 
+
+      L18:  stop: typeof stop;
+      L19:  | import("./types").PropertyAssigner<TContext, TEvent>) => import("./types").AssignAction<TContext, TEvent>;
+      L20:  after: typeof after;
+
+            '(' expected. 
+
+      L18:  stop: typeof stop;
+      L19:  | import("./types").PropertyAssigner<TContext, TEvent>) => import("./types").AssignAction<TContext, TEvent>;
+      L20:  after: typeof after;
+
+            Declaration or statement expected. 
+
+      L24:      escalate: typeof escalate;
+      L25:  };
+      L26:  export { Actor, Machine, StateNode, State, matchesState, mapState, actions, assign, send, sendParent, sendUpdate, forwardTo, interpret, Interpreter, matchState, spawn, doneInvoke, createMachine };
+
+            '=' expected. 
+
+     L113:  init: (initialState?: string | import("./types").StateValueMap | State<TContext, TEvent, any, any> | undefin
+
+            '(' expected. 
+
+     L113:  es").StateValueMap | State<TContext, TEvent, any, any> | undefined) => Interpreter<TContext, TStateSchema, T
+
+            ',' expected. 
+
+     L113:  lueMap | State<TContext, TEvent, any, any> | undefined) => Interpreter<TContext, TStateSchema, TEvent, any>;
+
+            '=' expected. 
+
+     L113:  lueMap | State<TContext, TEvent, any, any> | undefined) => Interpreter<TContext, TStateSchema, TEvent, any>;
+
+            '>' expected. 
+
+     L113:  lueMap | State<TContext, TEvent, any, any> | undefined) => Interpreter<TContext, TStateSchema, TEvent, any>;
+
+            '=' expected. 
+
+     L113:  lueMap | State<TContext, TEvent, any, any> | undefined) => Interpreter<TContext, TStateSchema, TEvent, any>;
+
+            Expression expected. 
+
+     L113:  lueMap | State<TContext, TEvent, any, any> | undefined) => Interpreter<TContext, TStateSchema, TEvent, any>;
+
+            '=' expected. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            Expression expected. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            '(' expected. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            ')' expected. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            '=' expected. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            '>' expected. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            '=' expected. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            Expression expected. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            '=' expected. 
+
+     L124:  stop(): Interpreter<TContext, TStateSchema, TEvent>;
+
+            '=>' expected. 
+
+     L124:  stop(): Interpreter<TContext, TStateSchema, TEvent>;
+
+            ',' expected. 
+
+     L134:  vent<TEvent>[] | SCXML.Event<TEvent>, payload?: EventData | undefined) => State<TContext, TEvent, any, any>;
+     L135:  private batch;
+
+            ',' expected. 
+
+     L134:  send: (event: TEvent | TEvent["type"] | Event<TEvent>[] | SCXML.Event<TEvent>, payload?: EventData | undefined) => State<TContext, TEvent, any, any>;
+     L135:  private batch;
+
+            '=' expected. 
+
+     L141:  sender(event: Event<TEvent>): () => State<TContext, TEvent>;
+     L142:  private sendTo;
+
+            '=>' expected. 
+
+     L141:  sender(event: Event<TEvent>): () => State<TContext, TEvent>;
+     L142:  private sendTo;
+
+            ',' expected. 
+
+     L141:  sender(event: Event<TEvent>): () => State<TContext, TEvent>;
+     L142:  private sendTo;
+
+            '=' expected. 
+
+     L150:  nextState(event: Event<TEvent> | SCXML.Event<TEvent>): State<TContext, TEvent>;
+     L151:  private forward;
+
+            '=>' expected. 
+
+     L150:  nextState(event: Event<TEvent> | SCXML.Event<TEvent>): State<TContext, TEvent>;
+     L151:  private forward;
+
+            ',' expected. 
+
+     L150:  nextState(event: Event<TEvent> | SCXML.Event<TEvent>): State<TContext, TEvent>;
+     L151:  private forward;
+     L152:  private defer;
+
+            ',' expected. 
+
+     L151:  private forward;
+     L152:  private defer;
+     L153:  private cancel;
+
+            ',' expected. 
+
+     L152:  private defer;
+     L153:  private cancel;
+     L154:  private exec;
+
+            ',' expected. 
+
+     L153:  private cancel;
+     L154:  private exec;
+     L155:  private stopChild;
+
+            ',' expected. 
+
+     L154:  private exec;
+     L155:  private stopChild;
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+
+            '=' expected. 
+
+     L155:  private stopChild;
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  spawnMachine<TChildContext, TChildStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChildContext, TChildStateSchema, TChildEvent>, options?: {
+
+            '=>' expected. 
+
+     L155:  private stopChild;
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  spawnMachine<TChildContext, TChildStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChildContext, TChildStateSchema, TChildEvent>, options?: {
+
+            '=' expected. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  spawnMachine<TChildContext, TChildStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChild
+     L158:      id?: string;
+
+            '>' expected. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  spawnMachine<TChildContext, TChildStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChild
+     L158:      id?: string;
+
+            ',' expected. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  pawnMachine<TChildContext, TChildStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChildC
+     L158:      id?: string;
+
+            '=' expected. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  ext, TChildStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChildContext, TChildStateSch
+     L158:      id?: string;
+
+            ')' expected. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  ldStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChildContext, TChildStateSchema, TChi
+     L158:      id?: string;
+
+            '=' expected. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:   TChildEvent extends EventObject>(machine: StateMachine<TChildContext, TChildStateSchema, TChildEvent>, opti
+     L158:      id?: string;
+
+            '>' expected. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  Event extends EventObject>(machine: StateMachine<TChildContext, TChildStateSchema, TChildEvent>, options?: {
+     L158:      id?: string;
+
+            '=' expected. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  Event extends EventObject>(machine: StateMachine<TChildContext, TChildStateSchema, TChildEvent>, options?: {
+     L158:      id?: string;
+
+            Expression expected. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  Event extends EventObject>(machine: StateMachine<TChildContext, TChildStateSchema, TChildEvent>, options?: {
+     L158:      id?: string;
+
+            '=>' expected. 
+
+     L160:      sync?: boolean;
+     L161:  }): Interpreter<TChildContext, TChildStateSchema, TChildEvent>;
+     L162:  private spawnPromise;
+
+            '(' expected. 
+
+     L160:      sync?: boolean;
+     L161:  }): Interpreter<TChildContext, TChildStateSchema, TChildEvent>;
+     L162:  private spawnPromise;
+
+            ';' expected. 
+
+      L65:  export declare type StateValue = string | StateValueMap;
+      L66:   type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+
+            ']' expected. 
+
+      L66:  export declare type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+      L68:          states: any;
+
+            ',' expected. 
+
+      L66:  export declare type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+      L68:          states: any;
+
+            Property assignment expected. 
+
+      L66:  export declare type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+      L68:          states: any;
+
+            Property assignment expected. 
+
+      L66:  export declare type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+      L68:          states: any;
+
+            Property assignment expected. 
+
+      L66:  export declare type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+      L68:          states: any;
+
+            ',' expected. 
+
+      L66:  export declare type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+      L68:          states: any;
+
+            ',' expected. 
+
+      L67:  [K in keyof TSS]?: (TSS[K] extends {
+      L68:      states: any;
+      L69:  } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+
+            ':' expected. 
+
+      L68:          states: any;
+      L69:      } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+      L70:  };
+
+            ',' expected. 
+
+      L68:          states: any;
+      L69:      } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+      L70:  };
+
+            '(' expected. 
+
+      L68:          states: any;
+      L69:      } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+      L70:  };
+
+            Declaration or statement expected. 
+
+      L69:      } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+      L70:  };
+      L71:  export interface HistoryValue {
+
+            '>' expected. 
+
+     L175:  declare type TransitionsConfigMap<TContext, TEvent extends EventObject> = {
+     L176:  gTargetShortcut<TContext, TEvent> | (TransitionConfig<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L177:          type: K;
+
+            '(' expected. 
+
+     L177:      type: K;
+     L178:  }> : EventObject> & {
+     L179:      event?: undefined;
+
+            Expression expected. 
+
+     L177:      type: K;
+     L178:  }> : EventObject> & {
+     L179:      event?: undefined;
+
+            ',' expected. 
+
+     L178:  }> : EventObject> & {
+     L179:      event?: undefined;
+     L180:  })>;
+
+            Expression expected. 
+
+     L179:          event?: undefined;
+     L180:      })>;
+     L181:  };
+
+            Declaration or statement expected. 
+
+     L180:      })>;
+     L181:  };
+     L182:  declare type TransitionsConfigArray<TContext, TEvent extends EventObject> = Array<{
+
+            '>' expected. 
+
+     L182:  declare type TransitionsConfigArray<TContext, TEvent extends EventObject> = Array<{
+     L183:  ['type'] | NullEvent['type'] | '*']: TransitionConfig<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L184:          type: K;
+
+            '(' expected. 
+
+     L184:      type: K;
+     L185:  }> : EventObject> & {
+     L186:      event: K;
+
+            Expression expected. 
+
+     L184:      type: K;
+     L185:  }> : EventObject> & {
+     L186:      event: K;
+
+            ',' expected. 
+
+     L185:  }> : EventObject> & {
+     L186:      event: K;
+     L187:  };
+
+            ')' expected. 
+
+     L186:          event: K;
+     L187:      };
+     L188:  }[TEvent['type'] | NullEvent['type'] | '*']>;
+
+            Declaration or statement expected. 
+
+     L187:      };
+     L188:  }[TEvent['type'] | NullEvent['type'] | '*']>;
+     L189:  export declare type TransitionsConfig<TContext, TEvent extends EventObject> = TransitionsConfigMap<TContext, TEvent> | TransitionsConfigArray<TContext, TEvent>;
+
+            Expression expected. 
+
+     L187:      };
+     L188:  }[TEvent['type'] | NullEvent['type'] | '*']>;
+     L189:  export declare type TransitionsConfig<TContext, TEvent extends EventObject> = TransitionsConfigMap<TContext, TEvent> | TransitionsConfigArray<TContext, TEvent>;
+
+            ';' expected. 
+
+     L320:  meta?: TStateSchema extends {
+     L321:      meta: infer D;
+
+            Property or signature expected. 
+
+     L320:  meta?: TStateSchema extends {
+     L321:      meta: infer D;
+
+            ';' expected. 
+
+     L320:  meta?: TStateSchema extends {
+     L321:      meta: infer D;
+     L322:  } ? D : any;
+
+            Declaration or statement expected. 
+
+     L321:      meta: infer D;
+     L322:  } ? D : any;
+
+            Expression expected. 
+
+     L329:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            '(' expected. 
+
+     L329:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            '(' expected. 
+
+     L329:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            Expression expected. 
+
+     L334:  id?: string | undefined;
+
+            Expression expected. 
+
+     L338:  delimiter?: string;
+
+            Expression expected. 
+
+     L342:      order?: number;
+
+            Declaration or statement expected. 
+
+     L342:      order?: number;
+     L344:  export interface StateNodeDefinition<TContext, TStateSchema extends StateSchema, TEvent extends EventObject> {
+
+            '>' expected. 
+
+     L587:  export declare type TransitionDefinitionMap<TContext, TEvent extends EventObject> = {
+     L588:   NullEvent['type'] | '*']: Array<TransitionDefinition<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L589:          type: K;
+
+            '(' expected. 
+
+     L589:          type: K;
+     L590:      }> : EventObject>>;
+     L591:  };
+
+            Expression expected. 
+
+     L589:          type: K;
+     L590:      }> : EventObject>>;
+     L591:  };
+
+            Declaration or statement expected. 
+
+     L590:      }> : EventObject>>;
+     L591:  };
+     L592:  export interface DelayedTransitionDefinition<TContext, TEvent extends EventObject> extends TransitionDefinition<TContext, TEvent> {
+
+            Cannot find name 'Exclude'. 
+
+      L83:  toStrings(stateValue?: StateValue, delimiter?: string): string[];
+      L84:  toJSON(): Pick<this, Exclude<keyof this, "configuration" | "transitions">>;
+
+            Unused label. 
+
+      L89:  matches<TSV extends TTypestate['value']>(parentStateValue: TSV): this is TTypestate extends {
+      L90:      value: TSV;
+      L91:  } ? State<TTypestate['context'], TEvent, TStateSchema, TTypestate> : never;
+
+            Cannot find name 'TSV'. 
+
+      L89:  matches<TSV extends TTypestate['value']>(parentStateValue: TSV): this is TTypestate extends {
+      L90:      value: TSV;
+      L91:  } ? State<TTypestate['context'], TEvent, TStateSchema, TTypestate> : never;
+
+            Value of type 'typeof State' is not callable. Did you mean to include 'new'? 
+
+      L90:          value: TSV;
+      L91:      } ? State<TTypestate['context'], TEvent, TStateSchema, TTypestate> : never;
+
+            Cannot find name 'TTypestate'. 
+
+      L90:          value: TSV;
+      L91:      } ? State<TTypestate['context'], TEvent, TStateSchema, TTypestate> : never;
+
+            Cannot find name 'TEvent'. 
+
+      L90:          value: TSV;
+      L91:      } ? State<TTypestate['context'], TEvent, TStateSchema, TTypestate> : never;
+
+            Cannot find name 'TStateSchema'. 
+
+      L90:          value: TSV;
+      L91:      } ? State<TTypestate['context'], TEvent, TStateSchema, TTypestate> : never;
+
+            Cannot find name 'TTypestate'. 
+
+      L90:          value: TSV;
+      L91:      } ? State<TTypestate['context'], TEvent, TStateSchema, TTypestate> : never;
+
+            'never' only refers to a type, but is being used as a value here. 
+
+      L90:          value: TSV;
+      L91:      } ? State<TTypestate['context'], TEvent, TStateSchema, TTypestate> : never;
+
+            Unused label. 
+
+      L89:  meta?: TStateSchema extends {
+      L90:      meta: infer D;
+      L91:  } ? D : any;
+
+            Cannot find name 'infer'. 
+
+      L89:  meta?: TStateSchema extends {
+      L90:      meta: infer D;
+      L91:  } ? D : any;
+
+            Cannot find name 'D'. 
+
+      L89:  meta?: TStateSchema extends {
+      L90:      meta: infer D;
+      L91:  } ? D : any;
+
+            Unused label. 
+
+      L90:      meta: infer D;
+      L91:  } ? D : any;
+
+            'any' only refers to a type, but is being used as a value here. 
+
+      L90:      meta: infer D;
+      L91:  } ? D : any;
+
+            Cannot find name 'data'. 
+
+      L95:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            'Mapper' only refers to a type, but is being used as a value here. 
+
+      L95:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            Cannot find name 'TContext'. 
+
+      L95:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            Cannot find name 'TEvent'. 
+
+      L95:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            'PropertyMapper' only refers to a type, but is being used as a value here. 
+
+      L95:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            Cannot find name 'TContext'. 
+
+      L95:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            Cannot find name 'TEvent'. 
+
+      L95:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            Unused label. 
+
+      L99:  delimiter: string;
+
+            'string' only refers to a type, but is being used as a value here. 
+
+      L99:  delimiter: string;
+
+            Unused label. 
+
+     L103:  order: number;
+
+            'number' only refers to a type, but is being used as a value here. 
+
+     L103:  order: number;
+
+            Unused label. 
+
+     L107:  invoke: Array<InvokeDefinition<TContext, TEvent>>;
+     L108:  options: MachineOptions<TContext, TEvent>;
+
+            Cannot find name 'TContext'. 
+
+     L107:  invoke: Array<InvokeDefinition<TContext, TEvent>>;
+     L108:  options: MachineOptions<TContext, TEvent>;
+
+            Cannot find name 'TEvent'. 
+
+     L107:  invoke: Array<InvokeDefinition<TContext, TEvent>>;
+     L108:  options: MachineOptions<TContext, TEvent>;
+
+            Unused label. 
+
+     L107:  invoke: Array<InvokeDefinition<TContext, TEvent>>;
+     L108:  options: MachineOptions<TContext, TEvent>;
+     L109:  __xstatenode: true;
+
+            'MachineOptions' only refers to a type, but is being used as a value here. 
+
+     L107:  invoke: Array<InvokeDefinition<TContext, TEvent>>;
+     L108:  options: MachineOptions<TContext, TEvent>;
+     L109:  __xstatenode: true;
+
+            Cannot find name 'TContext'. 
+
+     L107:  invoke: Array<InvokeDefinition<TContext, TEvent>>;
+     L108:  options: MachineOptions<TContext, TEvent>;
+     L109:  __xstatenode: true;
+
+            Cannot find name 'TEvent'. 
+
+     L107:  invoke: Array<InvokeDefinition<TContext, TEvent>>;
+     L108:  options: MachineOptions<TContext, TEvent>;
+     L109:  __xstatenode: true;
+
+            Unused label. 
+
+     L108:  options: MachineOptions<TContext, TEvent>;
+     L109:  __xstatenode: true;
+     L110:  private __cache;
+
+            Cannot find name '__cache'. 
+
+     L109:  __xstatenode: true;
+     L110:  private __cache;
+     L111:  private idMap;
+
+            Cannot find name 'idMap'. 
+
+     L110:  private __cache;
+     L111:  private idMap;
+     L112:  constructor(
+
+            Cannot find name 'constructor'. 
+
+     L111:  private idMap;
+     L112:  constructor(
+
+            Cannot find name 'config'. 
+
+     L116:  config: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>
+
+            'StateNodeConfig' only refers to a type, but is being used as a value here. 
+
+     L116:  config: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>
+
+            Cannot find name 'TContext'. 
+
+     L116:  config: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>
+
+            Cannot find name 'TStateSchema'. 
+
+     L116:  config: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>
+
+            Cannot find name 'TEvent'. 
+
+     L116:  config: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>
+
+            Cannot find name 'options'. 
+
+     L116:  config: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>
+
+            'Partial' only refers to a type, but is being used as a value here. 
+
+     L116:  nfig: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>, 
+
+            'MachineOptions' only refers to a type, but is being used as a value here. 
+
+     L116:  nfig: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>, 
+
+            Cannot find name 'TContext'. 
+
+     L116:  nfig: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>, 
+
+            Cannot find name 'TEvent'. 
+
+     L116:  nfig: StateNodeConfig<TContext, TStateSchema, TEvent>, options?: Partial<MachineOptions<TContext, TEvent>>, 
+
+            Cannot find name 'context'. 
+
+     L120:  context?: Readonly<TContext> | undefined);
+     L121:  private _init;
+
+            'Readonly' only refers to a type, but is being used as a value here. 
+
+     L120:  context?: Readonly<TContext> | undefined);
+     L121:  private _init;
+
+            Cannot find name 'TContext'. 
+
+     L120:  context?: Readonly<TContext> | undefined);
+     L121:  private _init;
+
+            Object is possibly 'undefined'. 
+
+     L120:  context?: Readonly<TContext> | undefined);
+     L121:  private _init;
+
+            Cannot find name '_init'. 
+
+     L120:  context?: Readonly<TContext> | undefined);
+     L121:  private _init;
+
+            Cannot find name 'withConfig'. 
+
+     L128:  withConfig(options: Partial<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TC
+
+            Cannot find name 'options'. 
+
+     L128:  withConfig(options: Partial<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TC
+
+            'Partial' only refers to a type, but is being used as a value here. 
+
+     L128:  withConfig(options: Partial<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TC
+
+            'MachineOptions' only refers to a type, but is being used as a value here. 
+
+     L128:  withConfig(options: Partial<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TC
+
+            Cannot find name 'TContext'. 
+
+     L128:  withConfig(options: Partial<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TC
+
+            Cannot find name 'TEvent'. 
+
+     L128:  withConfig(options: Partial<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TC
+
+            Cannot find name 'context'. 
+
+     L128:  onfig(options: Partial<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TContex
+
+            Cannot find name 'TContext'. 
+
+     L128:  ons: Partial<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TContext, TStateS
+
+            Object is possibly 'undefined'. 
+
+     L128:  al<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TContext, TStateSchema, TEv
+
+            Value of type 'typeof StateNode' is not callable. Did you mean to include 'new'? 
+
+     L128:  artial<MachineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TContext, TStateSchema,        
+
+            Cannot find name 'TContext'. 
+
+     L128:  chineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'TStateSchema'. 
+
+     L128:  chineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'TEvent'. 
+
+     L128:  chineOptions<TContext, TEvent>>, context?: TContext | undefined): StateNode<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'withContext'. 
+
+     L134:  withContext(context: TContext): StateNode<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'context'. 
+
+     L134:  withContext(context: TContext): StateNode<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'TContext'. 
+
+     L134:  withContext(context: TContext): StateNode<TContext, TStateSchema, TEvent>;
+
+            Value of type 'typeof StateNode' is not callable. Did you mean to include 'new'? 
+
+     L134:  withContext(context: TContext): StateNode<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'TContext'. 
+
+     L134:  withContext(context: TContext): StateNode<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'TStateSchema'. 
+
+     L134:  withContext(context: TContext): StateNode<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'TEvent'. 
+
+     L134:  withContext(context: TContext): StateNode<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'get'. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'definition'. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            'StateNodeDefinition' only refers to a type, but is being used as a value here. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'TContext'. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'TStateSchema'. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'TEvent'. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'toJSON'. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            'StateNodeDefinition' only refers to a type, but is being used as a value here. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'TContext'. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'TStateSchema'. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'TEvent'. 
+
+     L138:  get definition(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+     L139:  toJSON(): StateNodeDefinition<TContext, TStateSchema, TEvent>;
+
+            Cannot find name 'get'. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            Cannot find name 'on'. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            'TransitionDefinitionMap' only refers to a type, but is being used as a value here. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            Cannot find name 'TContext'. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            Cannot find name 'TEvent'. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            Cannot find name 'get'. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            Cannot find name 'after'. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            Cannot find name 'TContext'. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            Cannot find name 'TEvent'. 
+
+     L143:  get on(): TransitionDefinitionMap<TContext, TEvent>;
+     L144:  get after(): Array<DelayedTransitionDefinition<TContext, TEvent>>;
+
+            Cannot find name 'get'. 
+
+     L148:  get transitions(): Array<TransitionDefinition<TContext, TEvent>>;
+     L149:  private getCandidates;
+
+            Cannot find name 'transitions'. 
+
+     L148:  get transitions(): Array<TransitionDefinition<TContext, TEvent>>;
+     L149:  private getCandidates;
+
+            Cannot find name 'TContext'. 
+
+     L148:  get transitions(): Array<TransitionDefinition<TContext, TEvent>>;
+     L149:  private getCandidates;
+
+            Cannot find name 'TEvent'. 
+
+     L148:  get transitions(): Array<TransitionDefinition<TContext, TEvent>>;
+     L149:  private getCandidates;
+
+            Cannot find name 'getCandidates'. 
+
+     L148:  get transitions(): Array<TransitionDefinition<TContext, TEvent>>;
+     L149:  private getCandidates;
+
+            Cannot find name 'getDelayedTransitions'. 
+
+     L153:  private getDelayedTransitions;
+
+            Cannot find name 'getStateNodes'. 
+
+     L159:  getStateNodes(state: StateValue | State<TContext, TEvent>): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'state'. 
+
+     L159:  getStateNodes(state: StateValue | State<TContext, TEvent>): Array<StateNode<TContext, any, TEvent>>;
+
+            'StateValue' only refers to a type, but is being used as a value here. 
+
+     L159:  getStateNodes(state: StateValue | State<TContext, TEvent>): Array<StateNode<TContext, any, TEvent>>;
+
+            Value of type 'typeof State' is not callable. Did you mean to include 'new'? 
+
+     L159:  getStateNodes(state: StateValue | State<TContext, TEvent>): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'TContext'. 
+
+     L159:  getStateNodes(state: StateValue | State<TContext, TEvent>): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'TEvent'. 
+
+     L159:  getStateNodes(state: StateValue | State<TContext, TEvent>): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'TContext'. 
+
+     L159:  getStateNodes(state: StateValue | State<TContext, TEvent>): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'TEvent'. 
+
+     L159:  getStateNodes(state: StateValue | State<TContext, TEvent>): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'handles'. 
+
+     L165:  handles(event: Event<TEvent>): boolean;
+
+            Value of type '{ new (typeArg: string, eventInitDict?: EventInit): Event; prototype: Event; readonly 
+            AT_TARGET: ...' is not callable. Did you mean to include 'new'? 
+
+     L165:  handles(event: Event<TEvent>): boolean;
+
+            Cannot find name 'TEvent'. 
+
+     L165:  handles(event: Event<TEvent>): boolean;
+
+            'boolean' only refers to a type, but is being used as a value here. 
+
+     L165:  handles(event: Event<TEvent>): boolean;
+
+            Cannot find name 'resolveState'. 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+
+            Cannot find name 'state'. 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+
+            Value of type 'typeof State' is not callable. Did you mean to include 'new'? 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+
+            Cannot find name 'TContext'. 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+
+            Cannot find name 'TEvent'. 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+
+            Value of type 'typeof State' is not callable. Did you mean to include 'new'? 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+
+            Cannot find name 'TContext'. 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+
+            Cannot find name 'TEvent'. 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+
+            Cannot find name 'transitionLeafNode'. 
+
+     L173:  resolveState(state: State<TContext, TEvent>): State<TContext, TEvent>;
+     L174:  private transitionLeafNode;
+     L175:  private transitionCompoundNode;
+
+            Cannot find name 'transitionCompoundNode'. 
+
+     L174:  private transitionLeafNode;
+     L175:  private transitionCompoundNode;
+     L176:  private transitionParallelNode;
+
+            Cannot find name 'transitionParallelNode'. 
+
+     L175:  private transitionCompoundNode;
+     L176:  private transitionParallelNode;
+     L177:  private _transition;
+
+            Cannot find name '_transition'. 
+
+     L176:  private transitionParallelNode;
+     L177:  private _transition;
+     L178:  private next;
+
+            Cannot find name 'next'. 
+
+     L177:  private _transition;
+     L178:  private next;
+     L179:  private nodesFromChild;
+
+            Cannot find name 'nodesFromChild'. 
+
+     L178:  private next;
+     L179:  private nodesFromChild;
+
+            Cannot find name 'escapes'. 
+
+     L184:  private escapes;
+     L185:  private evaluateGuard;
+
+            Cannot find name 'evaluateGuard'. 
+
+     L184:  private escapes;
+     L185:  private evaluateGuard;
+     L186:  private getActions;
+
+            Cannot find name 'getActions'. 
+
+     L185:  private evaluateGuard;
+     L186:  private getActions;
+
+            Cannot find name 'transition'. 
+
+     L194:  transition(state: string | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEven
+     L195:  private resolveRaisedTransition;
+
+            Cannot find name 'state'. 
+
+     L194:  transition(state: string | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEven
+     L195:  private resolveRaisedTransition;
+
+            'string' only refers to a type, but is being used as a value here. 
+
+     L194:  transition(state: string | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEven
+     L195:  private resolveRaisedTransition;
+
+            'StateValueMap' only refers to a type, but is being used as a value here. 
+
+     L194:  transition(state: string | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEven
+     L195:  private resolveRaisedTransition;
+
+            Value of type 'typeof State' is not callable. Did you mean to include 'new'? 
+
+     L194:  transition(state: string | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEven                                                                                                
+     L195:  private resolveRaisedTransition;
+
+            Cannot find name 'TContext'. 
+
+     L194:  transition(state: string | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEven
+     L195:  private resolveRaisedTransition;
+
+            Cannot find name 'TEvent'. 
+
+     L194:  ansition(state: string | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEvent>
+     L195:  private resolveRaisedTransition;
+
+            Object is possibly 'undefined'. 
+
+     L194:  ring | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEvent> | SCXML.Event<TEv
+     L195:  private resolveRaisedTransition;
+
+            Value of type '{ new (typeArg: string, eventInitDict?: EventInit): Event; prototype: Event; readonly 
+            AT_TARGET: ...' is not callable. Did you mean to include 'new'? 
+
+     L194:  e: string | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEvent> | SCXML.Even                              
+     L195:  private resolveRaisedTransition;
+
+            Cannot find name 'TEvent'. 
+
+     L194:  te<TContext, TEvent, any, any> | undefined, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TContext):
+     L195:  private resolveRaisedTransition;
+
+            Cannot use namespace 'SCXML' as a value. 
+
+     L194:  t, TEvent, any, any> | undefined, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TCo
+     L195:  private resolveRaisedTransition;
+
+            The right-hand side of an arithmetic operation must be of type 'any', 'number' or an enum type. 
+
+     L194:  TContext, TEvent, any, any> | undefined, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): St
+     L195:  private resolveRaisedTransition;
+
+            Cannot find name 'TEvent'. 
+
+     L194:  ny, any> | undefined, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEven
+     L195:  private resolveRaisedTransition;
+
+            Cannot find name 'context'. 
+
+     L194:   | undefined, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TStat
+     L195:  private resolveRaisedTransition;
+
+            Cannot find name 'TContext'. 
+
+     L194:  ed, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TStateSchema, T
+     L195:  private resolveRaisedTransition;
+
+            Value of type 'typeof State' is not callable. Did you mean to include 'new'? 
+
+     L194:   | undefined, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TStat                    
+     L195:  private resolveRaisedTransition;
+
+            Cannot find name 'TContext'. 
+
+     L194:  Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+     L195:  private resolveRaisedTransition;
+
+            Cannot find name 'TEvent'. 
+
+     L194:  Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+     L195:  private resolveRaisedTransition;
+
+            Cannot find name 'TStateSchema'. 
+
+     L194:  Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+     L195:  private resolveRaisedTransition;
+
+            Cannot find name 'TTypestate'. 
+
+     L194:  Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+     L195:  private resolveRaisedTransition;
+
+            Cannot find name 'resolveRaisedTransition'. 
+
+     L194:  transition(state: string | StateValueMap | State<TContext, TEvent, any, any> | undefined, event: Event<TEvent> | SCXML.Event<TEvent>, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+     L195:  private resolveRaisedTransition;
+     L196:  private resolveTransition;
+
+            Cannot find name 'resolveTransition'. 
+
+     L195:  private resolveRaisedTransition;
+     L196:  private resolveTransition;
+
+            Cannot find name 'getStateNode'. 
+
+     L200:  getStateNode(stateKey: string): StateNode<TContext, any, TEvent>;
+
+            Cannot find name 'stateKey'. 
+
+     L200:  getStateNode(stateKey: string): StateNode<TContext, any, TEvent>;
+
+            'string' only refers to a type, but is being used as a value here. 
+
+     L200:  getStateNode(stateKey: string): StateNode<TContext, any, TEvent>;
+
+            Value of type 'typeof StateNode' is not callable. Did you mean to include 'new'? 
+
+     L200:  getStateNode(stateKey: string): StateNode<TContext, any, TEvent>;
+
+            Cannot find name 'TContext'. 
+
+     L200:  getStateNode(stateKey: string): StateNode<TContext, any, TEvent>;
+
+            Cannot find name 'TEvent'. 
+
+     L200:  getStateNode(stateKey: string): StateNode<TContext, any, TEvent>;
+
+            Cannot find name 'getStateNodeById'. 
+
+     L206:  getStateNodeById(stateId: string): StateNode<TContext, any, TEvent>;
+
+            Cannot find name 'stateId'. 
+
+     L206:  getStateNodeById(stateId: string): StateNode<TContext, any, TEvent>;
+
+            'string' only refers to a type, but is being used as a value here. 
+
+     L206:  getStateNodeById(stateId: string): StateNode<TContext, any, TEvent>;
+
+            Value of type 'typeof StateNode' is not callable. Did you mean to include 'new'? 
+
+     L206:  getStateNodeById(stateId: string): StateNode<TContext, any, TEvent>;
+
+            Cannot find name 'TContext'. 
+
+     L206:  getStateNodeById(stateId: string): StateNode<TContext, any, TEvent>;
+
+            Cannot find name 'TEvent'. 
+
+     L206:  getStateNodeById(stateId: string): StateNode<TContext, any, TEvent>;
+
+            Cannot find name 'getStateNodeByPath'. 
+
+     L212:  getStateNodeByPath(statePath: string | string[]): StateNode<TContext, any, TEvent>;
+
+            Cannot find name 'statePath'. 
+
+     L212:  getStateNodeByPath(statePath: string | string[]): StateNode<TContext, any, TEvent>;
+
+            'string' only refers to a type, but is being used as a value here. 
+
+     L212:  getStateNodeByPath(statePath: string | string[]): StateNode<TContext, any, TEvent>;
+
+            'string' only refers to a type, but is being used as a value here. 
+
+     L212:  getStateNodeByPath(statePath: string | string[]): StateNode<TContext, any, TEvent>;
+
+            Value of type 'typeof StateNode' is not callable. Did you mean to include 'new'? 
+
+     L212:  getStateNodeByPath(statePath: string | string[]): StateNode<TContext, any, TEvent>;
+
+            Cannot find name 'TContext'. 
+
+     L212:  getStateNodeByPath(statePath: string | string[]): StateNode<TContext, any, TEvent>;
+
+            Cannot find name 'TEvent'. 
+
+     L212:  getStateNodeByPath(statePath: string | string[]): StateNode<TContext, any, TEvent>;
+
+            Cannot find name 'resolve'. 
+
+     L218:  resolve(stateValue: StateValue): StateValue;
+     L219:  private getResolvedPath;
+
+            Cannot find name 'stateValue'. 
+
+     L218:  resolve(stateValue: StateValue): StateValue;
+     L219:  private getResolvedPath;
+
+            'StateValue' only refers to a type, but is being used as a value here. 
+
+     L218:  resolve(stateValue: StateValue): StateValue;
+     L219:  private getResolvedPath;
+
+            'StateValue' only refers to a type, but is being used as a value here. 
+
+     L218:  resolve(stateValue: StateValue): StateValue;
+     L219:  private getResolvedPath;
+
+            Cannot find name 'getResolvedPath'. 
+
+     L218:  resolve(stateValue: StateValue): StateValue;
+     L219:  private getResolvedPath;
+     L220:  private get initialStateValue();
+
+            Cannot find name 'get'. 
+
+     L219:  private getResolvedPath;
+     L220:  private get initialStateValue();
+     L221:  getInitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Cannot find name 'initialStateValue'. 
+
+     L219:  private getResolvedPath;
+     L220:  private get initialStateValue();
+     L221:  getInitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Cannot find name 'getInitialState'. 
+
+     L220:  private get initialStateValue();
+     L221:  getInitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestat
+
+            Cannot find name 'stateValue'. 
+
+     L220:  private get initialStateValue();
+     L221:  getInitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestat
+
+            'StateValue' only refers to a type, but is being used as a value here. 
+
+     L220:  private get initialStateValue();
+     L221:  getInitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestat
+
+            Cannot find name 'context'. 
+
+     L220:  private get initialStateValue();
+     L221:  getInitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestat
+
+            Cannot find name 'TContext'. 
+
+     L220:  private get initialStateValue();
+     L221:  getInitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestat
+
+            Value of type 'typeof State' is not callable. Did you mean to include 'new'? 
+
+     L220:  private get initialStateValue();
+     L221:  getInitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestat  
+
+            Cannot find name 'TContext'. 
+
+     L220:  private get initialStateValue();
+     L221:  InitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Cannot find name 'TEvent'. 
+
+     L220:  private get initialStateValue();
+     L221:  InitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Cannot find name 'TStateSchema'. 
+
+     L220:  private get initialStateValue();
+     L221:  InitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Cannot find name 'TTypestate'. 
+
+     L220:  private get initialStateValue();
+     L221:  InitialState(stateValue: StateValue, context?: TContext): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Cannot find name 'get'. 
+
+     L226:  get initialState(): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Cannot find name 'initialState'. 
+
+     L226:  get initialState(): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Value of type 'typeof State' is not callable. Did you mean to include 'new'? 
+
+     L226:  get initialState(): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Cannot find name 'TContext'. 
+
+     L226:  get initialState(): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Cannot find name 'TEvent'. 
+
+     L226:  get initialState(): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Cannot find name 'TStateSchema'. 
+
+     L226:  get initialState(): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Cannot find name 'TTypestate'. 
+
+     L226:  get initialState(): State<TContext, TEvent, TStateSchema, TTypestate>;
+
+            Cannot find name 'get'. 
+
+     L231:  get target(): StateValue | undefined;
+
+            Cannot find name 'target'. 
+
+     L231:  get target(): StateValue | undefined;
+
+            'StateValue' only refers to a type, but is being used as a value here. 
+
+     L231:  get target(): StateValue | undefined;
+
+            Object is possibly 'undefined'. 
+
+     L231:  get target(): StateValue | undefined;
+
+            Cannot find name 'getRelativeStateNodes'. 
+
+     L239:  getRelativeStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolv
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'relativeStateId'. 
+
+     L239:  getRelativeStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolv
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'TContext'. 
+
+     L239:  getRelativeStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolv
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            'any' only refers to a type, but is being used as a value here. 
+
+     L239:  RelativeStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?:
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'TEvent'. 
+
+     L239:  tiveStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boo
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'historyValue'. 
+
+     L239:  ateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean):
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            'HistoryValue' only refers to a type, but is being used as a value here. 
+
+     L239:  veStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNod
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'resolve'. 
+
+     L239:  Node<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any,
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            'boolean' only refers to a type, but is being used as a value here. 
+
+     L239:  ext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'TContext'. 
+
+     L239:  ext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'TEvent'. 
+
+     L239:  ext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'get'. 
+
+     L239:  getRelativeStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'initialStateNodes'. 
+
+     L239:  getRelativeStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'TContext'. 
+
+     L239:  getRelativeStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'TEvent'. 
+
+     L239:  getRelativeStateNodes(relativeStateId: StateNode<TContext, any, TEvent>, historyValue?: HistoryValue, resolve?: boolean): Array<StateNode<TContext, any, TEvent>>;
+     L240:  get initialStateNodes(): Array<StateNode<TContext, any, TEvent>>;
+
+            Cannot find name 'getFromRelativePath'. 
+
+     L247:  getFromRelativePath(relativePath: string[]): Array<StateNode<TContext, any, TEvent>>;
+     L248:  private historyValue;
+
+            Cannot find name 'relativePath'. 
+
+     L247:  getFromRelativePath(relativePath: string[]): Array<StateNode<TContext, any, TEvent>>;
+     L248:  private historyValue;
+
+            'string' only refers to a type, but is being used as a value here. 
+
+     L247:  getFromRelativePath(relativePath: string[]): Array<StateNode<TContext, any, TEvent>>;
+     L248:  private historyValue;
+
+            Cannot find name 'TContext'. 
+
+     L247:  getFromRelativePath(relativePath: string[]): Array<StateNode<TContext, any, TEvent>>;
+     L248:  private historyValue;
+
+            Cannot find name 'TEvent'. 
+
+     L247:  getFromRelativePath(relativePath: string[]): Array<StateNode<TContext, any, TEvent>>;
+     L248:  private historyValue;
+
+            Cannot find name 'historyValue'. 
+
+     L247:  getFromRelativePath(relativePath: string[]): Array<StateNode<TContext, any, TEvent>>;
+     L248:  private historyValue;
+
+            Cannot find name 'resolveHistory'. 
+
+     L255:  private resolveHistory;
+
+            Cannot find name 'get'. 
+
+     L259:  get stateIds(): string[];
+
+            Cannot find name 'stateIds'. 
+
+     L259:  get stateIds(): string[];
+
+            'string' only refers to a type, but is being used as a value here. 
+
+     L259:  get stateIds(): string[];
+
+            Cannot find name 'get'. 
+
+     L263:  get events(): Array<TEvent['type']>;
+
+            Cannot find name 'events'. 
+
+     L263:  get events(): Array<TEvent['type']>;
+
+            Cannot find name 'TEvent'. 
+
+     L263:  get events(): Array<TEvent['type']>;
+
+            Cannot find name 'get'. 
+
+     L269:  get ownEvents(): Array<TEvent['type']>;
+     L270:  private resolveTarget;
+
+            Cannot find name 'ownEvents'. 
+
+     L269:  get ownEvents(): Array<TEvent['type']>;
+     L270:  private resolveTarget;
+
+            Cannot find name 'TEvent'. 
+
+     L269:  get ownEvents(): Array<TEvent['type']>;
+     L270:  private resolveTarget;
+
+            Cannot find name 'resolveTarget'. 
+
+     L269:  get ownEvents(): Array<TEvent['type']>;
+     L270:  private resolveTarget;
+     L271:  private formatTransition;
+
+            Cannot find name 'formatTransition'. 
+
+     L270:  private resolveTarget;
+     L271:  private formatTransition;
+     L272:  private formatTransitions;
+
+            Cannot find name 'formatTransitions'. 
+
+     L271:      private formatTransition;
+     L272:      private formatTransitions;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+       L1:  import { ActionTypes } from './types';
+       L2:  export declare const start = ActionTypes.Start;
+       L3:  export declare const stop = ActionTypes.Stop;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+       L2:  export declare const start = ActionTypes.Start;
+       L3:  export declare const stop = ActionTypes.Stop;
+       L4:  export declare const raise = ActionTypes.Raise;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+       L3:  export declare const stop = ActionTypes.Stop;
+       L4:  export declare const raise = ActionTypes.Raise;
+       L5:  export declare const send = ActionTypes.Send;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+       L4:  export declare const raise = ActionTypes.Raise;
+       L5:  export declare const send = ActionTypes.Send;
+       L6:  export declare const cancel = ActionTypes.Cancel;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+       L5:  export declare const send = ActionTypes.Send;
+       L6:  export declare const cancel = ActionTypes.Cancel;
+       L7:  export declare const nullEvent = ActionTypes.NullEvent;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+       L6:  export declare const cancel = ActionTypes.Cancel;
+       L7:  export declare const nullEvent = ActionTypes.NullEvent;
+       L8:  export declare const assign = ActionTypes.Assign;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+       L7:  export declare const nullEvent = ActionTypes.NullEvent;
+       L8:  export declare const assign = ActionTypes.Assign;
+       L9:  export declare const after = ActionTypes.After;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+       L8:  export declare const assign = ActionTypes.Assign;
+       L9:  export declare const after = ActionTypes.After;
+      L10:  export declare const doneState = ActionTypes.DoneState;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+       L9:  export declare const after = ActionTypes.After;
+      L10:  export declare const doneState = ActionTypes.DoneState;
+      L11:  export declare const log = ActionTypes.Log;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+      L10:  export declare const doneState = ActionTypes.DoneState;
+      L11:  export declare const log = ActionTypes.Log;
+      L12:  export declare const init = ActionTypes.Init;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+      L11:  export declare const log = ActionTypes.Log;
+      L12:  export declare const init = ActionTypes.Init;
+      L13:  export declare const invoke = ActionTypes.Invoke;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+      L12:  export declare const init = ActionTypes.Init;
+      L13:  export declare const invoke = ActionTypes.Invoke;
+      L14:  export declare const errorExecution = ActionTypes.ErrorExecution;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+      L13:  export declare const invoke = ActionTypes.Invoke;
+      L14:  export declare const errorExecution = ActionTypes.ErrorExecution;
+      L15:  export declare const errorPlatform = ActionTypes.ErrorPlatform;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+      L14:  export declare const errorExecution = ActionTypes.ErrorExecution;
+      L15:  export declare const errorPlatform = ActionTypes.ErrorPlatform;
+      L16:  export declare const error = ActionTypes.ErrorCustom;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+      L15:  export declare const errorPlatform = ActionTypes.ErrorPlatform;
+      L16:  export declare const error = ActionTypes.ErrorCustom;
+      L17:  export declare const update = ActionTypes.Update;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+      L16:  export declare const error = ActionTypes.ErrorCustom;
+      L17:  export declare const update = ActionTypes.Update;
+      L18:  export declare const pure = ActionTypes.Pure;
+
+            A 'const' initializer in an ambient context must be a string or numeric literal. 
+
+      L17:  export declare const update = ActionTypes.Update;
+      L18:  export declare const pure = ActionTypes.Pure;
+      L19:  //# sourceMappingURL=actionTypes.d.ts.map
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+       L8:  export declare function toActionObject<TContext, TEvent extends EventObject>(action: Action<TContext, TEvent>, actionFunctionMap?: ActionFunctionMap<TContext, TEvent>): ActionObject<TContext, TEvent>;
+       L9:  export declare const toActionObjects: <TContext, TEvent extends EventObject>(action?: string | RaiseAction<i                                                                                                                                                                                                                                                                                                                                           
+      L10:  export declare function toActivityDefinition<TContext, TEvent extends EventObject>(action: string | ActivityDefinition<TContext, TEvent>): ActivityDefinition<TContext, TEvent>;
+
+            Generic type 'RaiseAction<TEvent>' requires 1 type argument(s). 
+
+       L8:  export declare function toActionObject<TContext, TEvent extends EventObject>(action: Action<TContext, TEvent>, actionFunctionMap?: ActionFunctionMap<TContext, TEvent>): ActionObject<TContext, TEvent>;
+       L9:  s: <TContext, TEvent extends EventObject>(action?: string | RaiseAction<import("./types").AnyEventObject> | 
+      L10:  export declare function toActivityDefinition<TContext, TEvent extends EventObject>(action: string | ActivityDefinition<TContext, TEvent>): ActivityDefinition<TContext, TEvent>;
+
+            Cannot find name 'Required'. 
+
+     L120:  n forwardTo<TContext, TEvent extends EventObject>(target: Required<SendActionOptions<TContext, TEvent>>['to'
+
+            Type 'boolean' is not assignable to type '{ (?: string): any; raise: <TContext, TEvent extends 
+            EventObject>(event: Event<TEvent>) => RaiseA...'. 
+
+       L9:  import { matchState } from './match';
+      L10:  declare const actions: {
+      L11:      raise: typeof raise;
+
+            Cannot find name 'import'. 
+
+      L15:  log: typeof log;
+      L16:  cancel: (sendId: string | number) => import("./types").CancelAction;
+      L17:  start: typeof start;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+      L15:  log: typeof log;
+      L16:  cancel: (sendId: string | number) => import("./types").CancelAction;
+      L17:  start: typeof start;
+
+            Cannot find name 'import'. 
+
+      L18:  stop: typeof stop;
+      L19:  TContext, TEvent extends import("./types").EventObject = import("./types").EventObject>(assignment: import("
+      L20:  after: typeof after;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+      L18:  stop: typeof stop;
+      L19:  ext, TEvent extends import("./types").EventObject = import("./types").EventObject>(assignment: import("./typ
+      L20:  after: typeof after;
+
+            Cannot find name 'assignment'. 
+
+      L18:  stop: typeof stop;
+      L19:  rt("./types").EventObject = import("./types").EventObject>(assignment: import("./types").Assigner<TContext, 
+      L20:  after: typeof after;
+
+            Property 'Assigner' does not exist on type 'Promise<typeof "/Users/mapicard/Desktop/smpApps/Sample 
+            Apps/i3-xstate/node_modules/xstate/lib/typ...'. 
+
+      L18:  stop: typeof stop;
+      L19:  ort("./types").EventObject>(assignment: import("./types").Assigner<TContext, TEvent> | import("./types").Pro
+      L20:  after: typeof after;
+
+            Cannot find name 'TContext'. 
+
+      L18:  stop: typeof stop;
+      L19:  pes").EventObject>(assignment: import("./types").Assigner<TContext, TEvent> | import("./types").PropertyAssi
+      L20:  after: typeof after;
+
+            Cannot find name 'TEvent'. 
+
+      L18:  stop: typeof stop;
+      L19:  Object>(assignment: import("./types").Assigner<TContext, TEvent> | import("./types").PropertyAssigner<TConte
+      L20:  after: typeof after;
+
+            Property 'PropertyAssigner' does not exist on type 'Promise<typeof "/Users/mapicard/Desktop/smpApps/Sample 
+            Apps/i3-xstate/node_modules/xstate/lib/typ...'. 
+
+      L18:  stop: typeof stop;
+      L19:  ort("./types").Assigner<TContext, TEvent> | import("./types").PropertyAssigner<TContext, TEvent>) => import(
+      L20:  after: typeof after;
+
+            Cannot find name 'TContext'. 
+
+      L18:  stop: typeof stop;
+      L19:  er<TContext, TEvent> | import("./types").PropertyAssigner<TContext, TEvent>) => import("./types").AssignActi
+      L20:  after: typeof after;
+
+            Cannot find name 'TEvent'. 
+
+      L18:  stop: typeof stop;
+      L19:  , TEvent> | import("./types").PropertyAssigner<TContext, TEvent>) => import("./types").AssignAction<TContext
+      L20:  after: typeof after;
+
+            Property 'AssignAction' does not exist on type 'Promise<typeof "/Users/mapicard/Desktop/smpApps/Sample 
+            Apps/i3-xstate/node_modules/xstate/lib/typ...'. 
+
+      L18:  stop: typeof stop;
+      L19:  | import("./types").PropertyAssigner<TContext, TEvent>) => import("./types").AssignAction<TContext, TEvent>;
+      L20:  after: typeof after;
+
+            Cannot find name 'TContext'. 
+
+      L18:  stop: typeof stop;
+      L19:  | import("./types").PropertyAssigner<TContext, TEvent>) => import("./types").AssignAction<TContext, TEvent>;
+      L20:  after: typeof after;
+
+            Cannot find name 'TEvent'. 
+
+      L18:  stop: typeof stop;
+      L19:  | import("./types").PropertyAssigner<TContext, TEvent>) => import("./types").AssignAction<TContext, TEvent>;
+      L20:  after: typeof after;
+
+            Unused label. 
+
+      L19:  assign: <TContext, TEvent extends import("./types").EventObject = import("./types").EventObject>(assignment: import("./types").Assigner<TContext, TEvent> | import("./types").PropertyAssigner<TContext, TEvent>) => import("./types").AssignAction<TContext, TEvent>;
+      L20:  after: typeof after;
+      L21:  done: typeof done;
+
+            Unused label. 
+
+      L20:  after: typeof after;
+      L21:  done: typeof done;
+      L22:  respond: typeof respond;
+
+            Unused label. 
+
+      L21:  done: typeof done;
+      L22:  respond: typeof respond;
+      L23:  forwardTo: typeof forwardTo;
+
+            Unused label. 
+
+      L22:  respond: typeof respond;
+      L23:  forwardTo: typeof forwardTo;
+      L24:  escalate: typeof escalate;
+
+            Unused label. 
+
+      L23:      forwardTo: typeof forwardTo;
+      L24:      escalate: typeof escalate;
+      L25:  };
+
+            Class 'Interpreter<TContext, TStateSchema, TEvent, TTypestate>' incorrectly implements interface 
+            'Actor<State<TContext, TEvent, any, any>, TEvent>'. Property 'send' is missing in type 
+            'Interpreter<TContext, TStateSchema, TEvent, TTypestate>'. 
+
+      L17:  export declare class Interpreter<TContext, TStateSchema extends StateSchema = any, TEvent extends EventObjec
+      L18:      machine: StateMachine<TContext, TStateSchema, TEvent, TTypestate>;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L113:  init: (initialState?: string | import("./types").StateValueMap | State<TContext, TEvent, any, any> | undefin   
+
+            Cannot find name 'import'. 
+
+     L113:  init: (initialState?: string | import("./types").StateValueMap | State<TContext, TEvent, any, any> | undefin
+
+            Duplicate identifier 'Interpreter'. 
+
+     L113:  alueMap | State<TContext, TEvent, any, any> | undefined) => Interpreter<TContext, TStateSchema, TEvent, any>
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L113:  ateValueMap | State<TContext, TEvent, any, any> | undefined) => Interpreter<TContext, TStateSchema, TEvent, 
+
+            Duplicate identifier 'TStateSchema'. 
+
+     L113:  lueMap | State<TContext, TEvent, any, any> | undefined) => Interpreter<TContext, TStateSchema, TEvent, any>;
+
+            Duplicate identifier 'TEvent'. 
+
+     L113:  lueMap | State<TContext, TEvent, any, any> | undefined) => Interpreter<TContext, TStateSchema, TEvent, any>;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L113:  lueMap | State<TContext, TEvent, any, any> | undefined) => Interpreter<TContext, TStateSchema, TEvent, any>;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            Duplicate identifier 'Interpreter'. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            Duplicate identifier 'TStateSchema'. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            Duplicate identifier 'TEvent'. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L118:  start(initialState?: State<TContext, TEvent> | StateValue): Interpreter<TContext, TStateSchema, TEvent>;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L124:  stop(): Interpreter<TContext, TStateSchema, TEvent>;
+
+            A parameter property is only allowed in a constructor implementation. 
+
+     L134:  send: (event: TEvent | TEvent["type"] | Event<TEvent>[] | SCXML.Event<TEvent>, payload?: EventData | undefined) => State<TContext, TEvent, any, any>;
+     L135:  private batch;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L141:  sender(event: Event<TEvent>): () => State<TContext, TEvent>;
+     L142:  private sendTo;
+
+            A parameter property is only allowed in a constructor implementation. 
+
+     L141:  sender(event: Event<TEvent>): () => State<TContext, TEvent>;
+     L142:  private sendTo;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L150:  nextState(event: Event<TEvent> | SCXML.Event<TEvent>): State<TContext, TEvent>;
+     L151:  private forward;
+
+            A parameter property is only allowed in a constructor implementation. 
+
+     L150:  nextState(event: Event<TEvent> | SCXML.Event<TEvent>): State<TContext, TEvent>;
+     L151:  private forward;
+     L152:  private defer;
+
+            A parameter property is only allowed in a constructor implementation. 
+
+     L151:  private forward;
+     L152:  private defer;
+     L153:  private cancel;
+
+            A parameter property is only allowed in a constructor implementation. 
+
+     L152:  private defer;
+     L153:  private cancel;
+     L154:  private exec;
+
+            A parameter property is only allowed in a constructor implementation. 
+
+     L153:  private cancel;
+     L154:  private exec;
+     L155:  private stopChild;
+
+            A parameter property is only allowed in a constructor implementation. 
+
+     L154:  private exec;
+     L155:  private stopChild;
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L155:  private stopChild;
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  spawnMachine<TChildContext, TChildStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChildContext, TChildStateSchema, TChildEvent>, options?: {
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  spawnMachine<TChildContext, TChildStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChild
+     L158:      id?: string;
+
+            Duplicate identifier 'TChildStateSchema'. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  spawnMachine<TChildContext, TChildStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChild
+     L158:      id?: string;
+
+            Duplicate identifier 'TChildEvent'. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  spawnMachine<TChildContext, TChildStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChild
+     L158:      id?: string;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  wnMachine<TChildContext, TChildStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChildCon
+     L158:      id?: string;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  text, TChildStateSchema, TChildEvent extends EventObject>(machine: StateMachine<TChildContext, TChildStateSc
+     L158:      id?: string;
+
+            Duplicate identifier 'TChildStateSchema'. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  Event extends EventObject>(machine: StateMachine<TChildContext, TChildStateSchema, TChildEvent>, options?: {
+     L158:      id?: string;
+
+            Duplicate identifier 'TChildEvent'. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  Event extends EventObject>(machine: StateMachine<TChildContext, TChildStateSchema, TChildEvent>, options?: {
+     L158:      id?: string;
+
+            A parameter initializer is only allowed in a function or constructor implementation. 
+
+     L156:  spawn(entity: Spawnable, name: string, options?: SpawnOptions): Actor;
+     L157:  Event extends EventObject>(machine: StateMachine<TChildContext, TChildStateSchema, TChildEvent>, options?: {
+     L158:      id?: string;
+
+            Cannot find name 'Required'. 
+
+      L52:  export declare type ActionFunction<TContext, TEvent extends EventObject> = (context: TContext, event: TEvent, meta: ActionMeta<TContext, TEvent>) => any | void;
+      L53:  TEvent> | ActionFunction<TContext, TEvent> | AssignAction<Required<TContext>, TEvent> | SendAction<TContext,
+      L54:  export declare type Actions<TContext, TEvent extends EventObject> = SingleOrArray<Action<TContext, TEvent>>;
+
+            'never' only refers to a type, but is being used as a value here. 
+
+      L65:  export declare type StateValue = string | StateValueMap;
+      L66:   type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+
+            Cannot invoke an expression whose type lacks a call signature. Type '{ [x: string]: any; }' has no 
+            compatible call signatures. 
+
+      L65:  export declare type StateValue = string | StateValueMap;
+      L66:   type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {                                                                                                      
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+
+            A computed property name must be of type 'string', 'number', 'symbol', or 'any'. 
+
+      L66:  export declare type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+      L68:          states: any;
+
+            Cannot find name 'K'. 
+
+      L66:  export declare type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+      L68:          states: any;
+
+            Cannot find name 'keyof'. 
+
+      L66:  export declare type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+      L68:          states: any;
+
+            Cannot find name 'TSS'. 
+
+      L66:  export declare type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+      L68:          states: any;
+
+            Cannot find name 'TSS'. 
+
+      L66:  export declare type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+      L68:          states: any;
+
+            Cannot find name 'K'. 
+
+      L66:  export declare type ExtractStateValue<TS extends StateSchema<any>, TSS = TS['states']> = TSS extends undefined ? never : {
+      L67:      [K in keyof TSS]?: (TSS[K] extends {
+      L68:          states: any;
+
+            'any' only refers to a type, but is being used as a value here. 
+
+      L67:  [K in keyof TSS]?: (TSS[K] extends {
+      L68:      states: any;
+      L69:  } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+
+            Cannot find name 'keyof'. 
+
+      L68:          states: any;
+      L69:      } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+      L70:  };
+
+            Cannot find name 'TSS'. 
+
+      L68:          states: any;
+      L69:      } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+      L70:  };
+
+            Cannot find name 'K'. 
+
+      L68:          states: any;
+      L69:      } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+      L70:  };
+
+            'never' only refers to a type, but is being used as a value here. 
+
+      L68:          states: any;
+      L69:      } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+      L70:  };
+
+            'ExtractStateValue' only refers to a type, but is being used as a value here. 
+
+      L68:          states: any;
+      L69:      } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+      L70:  };
+
+            Cannot find name 'TSS'. 
+
+      L68:          states: any;
+      L69:      } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+      L70:  };
+
+            Cannot find name 'K'. 
+
+      L68:          states: any;
+      L69:      } ? keyof TSS[K]['states'] : never) | ExtractStateValue<TSS[K]>;
+      L70:  };
+
+            Type 'string | number' does not satisfy the constraint 'string'. Type 'number' is not assignable to type 
+            'string'. 
+
+     L160:  yedTransitions<TContext, TEvent extends EventObject> = Record<string | number, string | SingleOrArray<Transi
+     L161:      delay: number | string | Expr<TContext, TEvent, number>;
+
+            Type 'K' does not satisfy the constraint 'EventObject'. Type '"*" | TEvent["type"] | ActionTypes.NullEvent' 
+            is not assignable to type 'EventObject'. Type '"*"' is not assignable to type 'EventObject'. 
+
+     L175:  declare type TransitionsConfigMap<TContext, TEvent extends EventObject> = {
+     L176:  gTargetShortcut<TContext, TEvent> | (TransitionConfig<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L177:          type: K;
+
+            Cannot find name 'TEvent'. 
+
+     L175:  declare type TransitionsConfigMap<TContext, TEvent extends EventObject> = {
+     L176:  gTargetShortcut<TContext, TEvent> | (TransitionConfig<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L177:          type: K;
+
+            Cannot find name 'Extract'. 
+
+     L175:  declare type TransitionsConfigMap<TContext, TEvent extends EventObject> = {
+     L176:  gTargetShortcut<TContext, TEvent> | (TransitionConfig<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L177:          type: K;
+
+            Cannot find name 'TEvent'. 
+
+     L175:  declare type TransitionsConfigMap<TContext, TEvent extends EventObject> = {
+     L176:  gTargetShortcut<TContext, TEvent> | (TransitionConfig<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L177:          type: K;
+
+            Cannot find name 'K'. 
+
+     L176:  [K in TEvent['type'] | NullEvent['type'] | '*']?: SingleOrArray<TransitionConfigTargetShortcut<TContext, TEvent> | (TransitionConfig<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L177:      type: K;
+     L178:  }> : EventObject> & {
+
+            'EventObject' only refers to a type, but is being used as a value here. 
+
+     L177:      type: K;
+     L178:  }> : EventObject> & {
+     L179:      event?: undefined;
+
+            The left-hand side of an arithmetic operation must be of type 'any', 'number' or an enum type. 
+
+     L177:      type: K;
+     L178:  }> : EventObject> & {
+     L179:      event?: undefined;
+
+            The right-hand side of an arithmetic operation must be of type 'any', 'number' or an enum type. 
+
+     L177:      type: K;
+     L178:  }> : EventObject> & {                                 
+     L179:      event?: undefined;
+
+            Type 'K' does not satisfy the constraint 'EventObject'. Type '"*" | ActionTypes.NullEvent | TEvent["type"]' 
+            is not assignable to type 'EventObject'. Type '"*"' is not assignable to type 'EventObject'. 
+
+     L182:  declare type TransitionsConfigArray<TContext, TEvent extends EventObject> = Array<{
+     L183:  ['type'] | NullEvent['type'] | '*']: TransitionConfig<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L184:          type: K;
+
+            Cannot find name 'TEvent'. 
+
+     L182:  declare type TransitionsConfigArray<TContext, TEvent extends EventObject> = Array<{
+     L183:  ['type'] | NullEvent['type'] | '*']: TransitionConfig<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L184:          type: K;
+
+            Cannot find name 'Extract'. 
+
+     L182:  declare type TransitionsConfigArray<TContext, TEvent extends EventObject> = Array<{
+     L183:  ['type'] | NullEvent['type'] | '*']: TransitionConfig<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L184:          type: K;
+
+            Cannot find name 'TEvent'. 
+
+     L182:  declare type TransitionsConfigArray<TContext, TEvent extends EventObject> = Array<{
+     L183:  ['type'] | NullEvent['type'] | '*']: TransitionConfig<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L184:          type: K;
+
+            Cannot find name 'K'. 
+
+     L183:  [K in TEvent['type'] | NullEvent['type'] | '*']: TransitionConfig<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L184:      type: K;
+     L185:  }> : EventObject> & {
+
+            'EventObject' only refers to a type, but is being used as a value here. 
+
+     L184:      type: K;
+     L185:  }> : EventObject> & {
+     L186:      event: K;
+
+            The left-hand side of an arithmetic operation must be of type 'any', 'number' or an enum type. 
+
+     L184:      type: K;
+     L185:  }> : EventObject> & {
+     L186:      event: K;
+
+            The right-hand side of an arithmetic operation must be of type 'any', 'number' or an enum type. 
+
+     L184:      type: K;
+     L185:  }> : EventObject> & {                        
+     L186:      event: K;
+
+            Cannot find name 'K'. 
+
+     L185:  }> : EventObject> & {
+     L186:      event: K;
+     L187:  };
+
+            Cannot find name 'TEvent'. 
+
+     L187:      };
+     L188:  }[TEvent['type'] | NullEvent['type'] | '*']>;
+     L189:  export declare type TransitionsConfig<TContext, TEvent extends EventObject> = TransitionsConfigMap<TContext, TEvent> | TransitionsConfigArray<TContext, TEvent>;
+
+            'NullEvent' only refers to a type, but is being used as a value here. 
+
+     L187:      };
+     L188:  }[TEvent['type'] | NullEvent['type'] | '*']>;
+     L189:  export declare type TransitionsConfig<TContext, TEvent extends EventObject> = TransitionsConfigMap<TContext, TEvent> | TransitionsConfigArray<TContext, TEvent>;
+
+            The right-hand side of an arithmetic operation must be of type 'any', 'number' or an enum type. 
+
+     L187:      };
+     L188:  }[TEvent['type'] | NullEvent['type'] | '*']>;
+     L189:  export declare type TransitionsConfig<TContext, TEvent extends EventObject> = TransitionsConfigMap<TContext, TEvent> | TransitionsConfigArray<TContext, TEvent>;
+
+            Unused label. 
+
+     L320:  meta?: TStateSchema extends {
+     L321:      meta: infer D;
+     L322:  } ? D : any;
+
+            Cannot find name 'infer'. 
+
+     L320:  meta?: TStateSchema extends {
+     L321:      meta: infer D;
+     L322:  } ? D : any;
+
+            Cannot find name 'D'. 
+
+     L320:  meta?: TStateSchema extends {
+     L321:      meta: infer D;
+     L322:  } ? D : any;
+
+            Unused label. 
+
+     L321:      meta: infer D;
+     L322:  } ? D : any;
+
+            'any' only refers to a type, but is being used as a value here. 
+
+     L321:      meta: infer D;
+     L322:  } ? D : any;
+
+            Cannot find name 'data'. 
+
+     L329:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            'Mapper' only refers to a type, but is being used as a value here. 
+
+     L329:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            Cannot find name 'TContext'. 
+
+     L329:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            Cannot find name 'TEvent'. 
+
+     L329:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            'PropertyMapper' only refers to a type, but is being used as a value here. 
+
+     L329:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            Cannot find name 'TContext'. 
+
+     L329:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            Cannot find name 'TEvent'. 
+
+     L329:  data?: Mapper<TContext, TEvent> | PropertyMapper<TContext, TEvent>;
+
+            Cannot find name 'id'. 
+
+     L334:  id?: string | undefined;
+
+            'string' only refers to a type, but is being used as a value here. 
+
+     L334:  id?: string | undefined;
+
+            Object is possibly 'undefined'. 
+
+     L334:  id?: string | undefined;
+
+            Cannot find name 'delimiter'. 
+
+     L338:  delimiter?: string;
+
+            'string' only refers to a type, but is being used as a value here. 
+
+     L338:  delimiter?: string;
+
+            Cannot find name 'order'. 
+
+     L342:      order?: number;
+
+            'number' only refers to a type, but is being used as a value here. 
+
+     L342:      order?: number;
+
+            Cannot find name 'ReturnType'. 
+
+     L430:  t declare type StateFrom<TMachine extends StateMachine<any, any, any>> = ReturnType<TMachine['transition']>;
+     L431:  export interface ActionMap<TContext, TEvent extends EventObject> {
+
+            Type 'K' does not satisfy the constraint 'EventObject'. Type '"*" | ActionTypes.NullEvent | TEvent["type"]' 
+            is not assignable to type 'EventObject'. Type '"*"' is not assignable to type 'EventObject'. 
+
+     L587:  export declare type TransitionDefinitionMap<TContext, TEvent extends EventObject> = {
+     L588:   NullEvent['type'] | '*']: Array<TransitionDefinition<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L589:          type: K;
+
+            Cannot find name 'TEvent'. 
+
+     L587:  export declare type TransitionDefinitionMap<TContext, TEvent extends EventObject> = {
+     L588:   NullEvent['type'] | '*']: Array<TransitionDefinition<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L589:          type: K;
+
+            Cannot find name 'Extract'. 
+
+     L587:  export declare type TransitionDefinitionMap<TContext, TEvent extends EventObject> = {
+     L588:   NullEvent['type'] | '*']: Array<TransitionDefinition<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L589:          type: K;
+
+            Cannot find name 'TEvent'. 
+
+     L587:  export declare type TransitionDefinitionMap<TContext, TEvent extends EventObject> = {
+     L588:   NullEvent['type'] | '*']: Array<TransitionDefinition<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L589:          type: K;
+
+            Cannot find name 'K'. 
+
+     L588:  [K in TEvent['type'] | NullEvent['type'] | '*']: Array<TransitionDefinition<TContext, K extends TEvent['type'] ? Extract<TEvent, {
+     L589:      type: K;
+     L590:  }> : EventObject>>;
+
+            'EventObject' only refers to a type, but is being used as a value here. 
+
+     L589:          type: K;
+     L590:      }> : EventObject>>;
+     L591:  };
+
+            Argument of type '{ id: string; initial: string; states: { inactive: { on: { TOGGLE: string; }; }; active: { 
+            on: { ...' is not assignable to parameter of type 'MachineConfig<Record<string, any>, any, AnyEventObject>'. 
+            Object literal may only specify known properties, and 'id' does not exist in type 
+            'MachineConfig<Record<string, any>, any, AnyEventObject>'. 
+
+       L5:  export const toggleMachine = Machine({
+       L6:    id: 'toggle',
+       L7:    initial: 'inactive',
+
+            Property 'start' does not exist on type 'Interpreter<Record<string, any>, any, EventObject, any>'. Did you 
+            mean 'state'? 
+
+      L16:    .onTransition(state => console.log(state.value))
+      L17:    .start();
+      L18:  // => 'inactive'
+
+[2K[GError: Failed to transpile program
+    at new BuildError (/Users/mapicard/Desktop/smpApps/Sample Apps/i3-xstate/node_modules/@ionic/app-scripts/dist/util/errors.js:16:28)
+    at /Users/mapicard/Desktop/smpApps/Sample Apps/i3-xstate/node_modules/@ionic/app-scripts/dist/transpile.js:159:20
+    at new Promise (<anonymous>)
+    at transpileWorker (/Users/mapicard/Desktop/smpApps/Sample Apps/i3-xstate/node_modules/@ionic/app-scripts/dist/transpile.js:107:12)
+    at Object.transpile (/Users/mapicard/Desktop/smpApps/Sample Apps/i3-xstate/node_modules/@ionic/app-scripts/dist/transpile.js:64:12)
+    at /Users/mapicard/Desktop/smpApps/Sample Apps/i3-xstate/node_modules/@ionic/app-scripts/dist/build.js:109:82
+[2K[G[DEBUG] Error: Failed to transpile program
+             at new BuildError (/Users/mapicard/Desktop/smpApps/Sample Apps/i3-xstate/node_modules/@ionic/app-scripts/dist/util/errors.js:16:28)
+             at /Users/mapicard/Desktop/smpApps/Sample Apps/i3-xstate/node_modules/@ionic/app-scripts/dist/transpile.js:159:20
+             at new Promise (<anonymous>)
+             at transpileWorker (/Users/mapicard/Desktop/smpApps/Sample Apps/i3-xstate/node_modules/@ionic/app-scripts/dist/transpile.js:107:12)
+             at Object.transpile (/Users/mapicard/Desktop/smpApps/Sample Apps/i3-xstate/node_modules/@ionic/app-scripts/dist/transpile.js:64:12)
+             at /Users/mapicard/Desktop/smpApps/Sample Apps/i3-xstate/node_modules/@ionic/app-scripts/dist/build.js:109:82
+
+[16:40:00]  copy finished in 7.40 s 
+[DEBUG] registerShutdownFunction process.exit/normal shutdown
