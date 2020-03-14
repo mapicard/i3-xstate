@@ -2,5 +2,7 @@
   "name": "i3-xstate",
   "app_id": "",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
