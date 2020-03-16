@@ -1,7 +1,7 @@
 # i3-xstate
 xState in Ionic3
 
-T H I S   P R O J E C T   I S   N O T   W O R K I N G  
+HELP REQUIRED TO BUILD WITHOUT TRANSPILE ERRORS  
 =====================================================
 
 When trying to build it with 'ionic cordova emulate browser' it generates lots of Transpile errors.
